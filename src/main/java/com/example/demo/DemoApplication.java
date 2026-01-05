@@ -12,7 +12,8 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        throw new RuntimeException("Broken version for rollout test");
+          return "Hello OpenShift Version - 2!";
+}
     }
 
     public static void main(String[] args) {
