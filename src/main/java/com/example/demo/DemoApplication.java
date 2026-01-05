@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello OpenShift from my own repo!";
+        return "Hello OpenShift from Alma and Rina!";
     }
 
     public static void main(String[] args) {
